@@ -47,21 +47,15 @@ body {
   font-weight: bold;
 }
 
-.hero {
-  height: 100vh;
-  background: url('rainforest.jpg') no-repeat center center/cover; /* Replace with your image */
-  display: flex;
-  align-items: center;
-  justify-content: center;
-}
-
 .hero-content {
   text-align: center;
 }
 
-.hero h1 {
+.font h1 {
   font-size: 3rem;
   margin-bottom: 1rem;
+  filter: drop-shadow(2px 4px 6px black);
+  
 }
 
 .donate-now {
@@ -73,7 +67,14 @@ body {
   cursor: pointer;
 }
 
-// Add interactivity here (if needed)
-document.querySelector('.donate-now').addEventListener('click', () => {
-  alert('Thank you for your support!');
-});
+.heroo {
+  height: 100vh;
+  background: url('warung.jpg') no-repeat center center/cover;
+  background-size: cover;
+  filter: blur(1px) brightness(30%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+
