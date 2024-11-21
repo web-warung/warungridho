@@ -1,86 +1,79 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
 body {
-    margin: 0;
-    font-family: Arial, sans-serif;
-    color: white;
-    background-color: #000;
-  }
-  
-  header {
-    position: absolute;
-    top: 0;
-    width: 100%;
-    padding: 10px 20px;
-    display: flex;
-    justify-content: space-between; 
-    align-items: center;
-    z-index: 1000;
-  }
-  
-  .logo {
-    font-size: 24px;
-    font-weight: bold;
-    flex: 1; 
-  }
-  
-  .menu {
-    list-style: none;
-    display: flex;
-    gap: 20px;
-    padding: 0;
-    margin: 0;
-    flex: 2; 
-    justify-content: center; 
-  }
-  
-  .menu li a {
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-  }
-  
-  .hero {
-    position: relative;
-    height: 100vh;
-    background: url('home.jpg.jpg') no-repeat center center/cover;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-  
-  .hero .content {
-    text-align: center;
-    max-width: 600px;
-    backdrop-filter: blur(5px);
-    background: rgba(0, 0, 0, 0.5);
-    padding: 20px;
-    border-radius: 10px;
-  }
-  
-  .hero h2 {
-    font-size: 20px;
-    font-weight: 300;
-    margin-bottom: 10px;
-  }
-  
-  .hero h1 {
-    font-size: 48px;
-    margin: 0;
-    margin-bottom: 20px;
-  }
-  
-  .btn {
-    display: inline-block;
-    padding: 10px 20px;
-    font-size: 16px;
-    color: black;
-    background: white;
-    text-decoration: none;
-    border-radius: 5px;
-    font-weight: bold;
-    transition: background 0.3s;
-  }
-  
-  .btn:hover {
-    background: #ddd;
-  }
-  
+  font-family: Arial, sans-serif;
+  background-color: #000; /* Dark theme background */
+  color: white;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem 2rem;
+  background-color: #111;
+}
+
+.navbar .logo {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.navbar ul {
+  list-style: none;
+  display: flex;
+}
+
+.navbar li {
+  margin: 0 1rem;
+}
+
+.navbar a {
+  text-decoration: none;
+  color: white;
+  font-size: 1rem;
+}
+
+.navbar .donate-btn {
+  background-color: orange;
+  padding: 0.5rem 1rem;
+  border-radius: 5px;
+  color: black;
+  font-weight: bold;
+}
+
+.hero {
+  height: 100vh;
+  background: url('rainforest.jpg') no-repeat center center/cover; /* Replace with your image */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.hero-content {
+  text-align: center;
+}
+
+.hero h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.donate-now {
+  background-color: orange;
+  border: none;
+  padding: 1rem 2rem;
+  font-size: 1rem;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+// Add interactivity here (if needed)
+document.querySelector('.donate-now').addEventListener('click', () => {
+  alert('Thank you for your support!');
+});
