@@ -64,3 +64,9 @@ body {
     font-weight: 300;
     margin-bottom: 10px;
   }
+
+  .hero h1 {
+    font-size: 48px;
+    margin: 0;
+    margin-bottom: 20px;
+  }
