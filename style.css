@@ -55,7 +55,6 @@ body {
   font-size: 3rem;
   margin-bottom: 1rem;
   filter: drop-shadow(2px 4px 6px black);
-  opacity: ;
 }
 
 .donate-now {
@@ -77,6 +76,8 @@ body {
   position: relative;
   justify-content: center;
   filter: blur(1px) brightness(20%);
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
 }
 
 .heroo::before {
@@ -86,8 +87,5 @@ body {
   left: 0;
   width: 100%;
   height: 100%;
-  background: url('warung.jpg') no-repeat center center/cover;
-  background-size: cover;
-  filter: blur(2px) brightness(50%);
-  z-index: -1; /* Pastikan latar belakang berada di belakang konten */
+  z-index: -1; 
 }
