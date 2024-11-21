@@ -35,4 +35,8 @@ body {
     font-size: 14px;
   }
   
- 
+  .shop a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
