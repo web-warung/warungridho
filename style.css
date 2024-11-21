@@ -83,3 +83,6 @@ body {
     transition: background 0.3s;
   }
   
+  .btn:hover {
+    background: #ddd;
+  }
