@@ -38,18 +38,6 @@ body {
     font-size: 14px;
   }
   
-  .shop {
-    flex: 1; 
-    text-align: right;
-  }
-  
-  .shop a {
-    color: white;
-    text-decoration: none;
-    font-size: 14px;
-  }
-  
-  
   .hero {
     position: relative;
     height: 100vh;
