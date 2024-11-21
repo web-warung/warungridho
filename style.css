@@ -11,7 +11,7 @@ body {
     width: 100%;
     padding: 10px 20px;
     display: flex;
-    justify-content: space-between; /* Memberikan jarak antar elemen */
+    justify-content: space-between; 
     align-items: center;
     z-index: 1000;
   }
@@ -19,17 +19,17 @@ body {
   .logo {
     font-size: 24px;
     font-weight: bold;
-    flex: 1; /* Membiarkan logo menempati ruang sendiri */
+    flex: 1; 
   }
   
   .menu {
     list-style: none;
     display: flex;
-    gap: 20px; /* Menambahkan jarak antar item menu */
+    gap: 20px;
     padding: 0;
     margin: 0;
-    flex: 2; /* Memberikan ruang proporsional untuk menu */
-    justify-content: center; /* Menyusun menu di tengah */
+    flex: 2; 
+    justify-content: center; 
   }
   
   .menu li a {
@@ -39,7 +39,7 @@ body {
   }
   
   .shop {
-    flex: 1; /* Membiarkan shop berada di sisi kanan */
+    flex: 1; 
     text-align: right;
   }
   
@@ -53,7 +53,7 @@ body {
   .hero {
     position: relative;
     height: 100vh;
-    background: url('https://source.unsplash.com/1600x900/?rocket') no-repeat center center/cover;
+    background: url('home.jpg.jpg') no-repeat center center/cover;
     display: flex;
     justify-content: center;
     align-items: center;
