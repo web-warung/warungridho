@@ -29,4 +29,10 @@ body {
     margin: 0;
   }
   
+  .menu li a {
+    color: white;
+    text-decoration: none;
+    font-size: 14px;
+  }
+  
  
