@@ -38,14 +38,6 @@ body {
   font-size: 1rem;
 }
 
-.navbar .donate-btn {
-  background-color: orange;
-  padding: 0.5rem 1rem;
-  border-radius: 5px;
-  color: black;
-  font-weight: bold;
-}
-
 .hero-content {
   text-align: center;
 }
@@ -54,15 +46,6 @@ body {
   font-size: 3rem;
   margin-bottom: 1rem;
   filter: drop-shadow(2px 4px 6px black);
-}
-
-.donate-now {
-  background-color: orange;
-  border: none;
-  padding: 1rem 2rem;
-  font-size: 1rem;
-  border-radius: 5px;
-  cursor: pointer;
 }
 
 .heroo {
