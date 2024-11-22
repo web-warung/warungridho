@@ -74,7 +74,7 @@ body {
   align-items: center;
   position: relative;
   justify-content: center;
-  filter: blur(1px) brightness(20%);
+  font-size: 30px;
   font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 
 }
