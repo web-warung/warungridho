@@ -9,8 +9,9 @@
     font-family: 'Arial', sans-serif;
     background-color: #000; /* Dark theme */
     color: white;
-
-  }.navbar {
+  }
+  
+  .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -31,7 +32,17 @@
         margin: 0 1rem;
       }
       
+      a {
+        text-decoration: none;
+        color: white;
+        font-size: 1rem;
+      }
 }
+
+.list {
+    font-size: 28px;
+    display: none;
+  }
 
 /* Hero Section */
 .hero {
