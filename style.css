@@ -26,25 +26,32 @@ body {
   font-weight: bold;
 }
 
+/* Sembunyikan menu pada layar kecil */
 .navbar ul {
-  list-style: none;
-  display: flex;
+  display: none; /* Default disembunyikan */
+  flex-direction: column;
+  position: absolute;
+  top: 60px; /* Sesuaikan dengan tinggi navbar */
+  right: 20px;
+  background-color: #111;
+  border-radius: 5px;
+  padding: 10px;
+  z-index: 1000;
+}
+
+.navbar ul.active {
+  display: flex; /* Tampilkan menu saat diaktifkan */
 }
 
 .navbar li {
-  margin: 0 1rem;
-}
-
-.navbar a {
-  text-decoration: none;
-  color: white;
-  font-size: 1rem;
+  margin: 10px 0; /* Jarak antar item menu */
 }
 
 .list {
-  font-size: 28px;
-  display: none;
+  display: flex; /* Tombol "list" hanya terlihat pada layar kecil */
+  cursor: pointer;
 }
+
 
 /* Hero Section */
 .hero {
@@ -132,16 +139,15 @@ body {
   border-radius: 10px;
 }
 
-/* Responsive Design */
 @media (max-width: 768px) {
-  .navbar ul {
-    display: none;
+  .list {
+    display: flex;
   }
 
-  .list {
-    display: block;
-    align-items: center;
+  .navbar ul {
+    display: none; /* Default untuk layar kecil */
   }
+}
 
   .blog-container {
     grid-template-columns: 1fr;
