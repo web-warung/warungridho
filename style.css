@@ -75,21 +75,6 @@
     margin-bottom: 10px;
   }
   
-  /* Tombol */
-  .blog-post button {
-    background-color: #007bff;
-    color: white;
-    border: none;
-    padding: 10px 15px;
-    margin-top: 10px;
-    cursor: pointer;
-    border-radius: 5px;
-  }
-  
-  .blog-post button:hover {
-    background-color: #0056b3;
-  }
-  
   /* Footer */
   .footer {
     background-color: #333;
