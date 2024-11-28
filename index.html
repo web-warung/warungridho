@@ -3,11 +3,12 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Welcome to Warung Ridho, a convenient shop with all the essentials you need.">
   <title>Warung Ridho</title>
   <link rel="stylesheet" href="style.css">
-  <link rel="stylesheet" href="favicon.ico">
 </head>
 <body>
+  <!-- Navbar -->
   <header>
     <div class="navbar">
       <div class="logo">Warung Ridho</div>
@@ -15,34 +16,62 @@
         <ul>
           <li><a href="#">Home</a></li>
           <li><a href="#">Service</a></li>
-          <li><a href="https://wa.me/+6285261505637">Contact</a></li>
-          <li><a href="https://www.google.com/maps/place/Ritonga+Jaya/@1.6174338,99.2588251,16z/data=!4m15!1m8!3m7!1s0x302c266244b12709:0xb9d36abb83b41f8e!2sSilangge,+Kec.+Sipirok,+Kabupaten+Tapanuli+Selatan,+Sumatera+Utara!3b1!8m2!3d1.6182649!4d99.2646998!16s%2Fg%2F1hm4t1gxq!3m5!1s0x302c268efd791ef3:0xc3559b141d62064f!8m2!3d1.6091953!4d99.2646626!16s%2Fg%2F11h6npcjwx?entry=ttu&g_ep=EgoyMDI0MTExOS4yIKXMDSoJLDEwMjExMjM0SAFQAw%3D%3D" class="donate-btn">Maps</a></li>
+          <li><a href="https://wa.me/+6285261505637" target="_blank">Contact</a></li>
+          <li><a href="https://www.google.com/maps/place/Ritonga+Jaya/" target="_blank" class="donate-btn">Maps</a></li>
         </ul>
       </nav>
     </div>
   </header>
 
+  <!-- Hero Section -->
   <section class="hero">
     <div class="hero-content">
-      <h1>Welcome To Web Toko Ridho.</h1>
+      <h1>Welcome To Web Toko Ridho</h1>
     </div>
   </section>
 
+  <!-- Blog Section -->
   <main>
     <div class="blog-container">
-        <!-- Postingan 1 -->
-        <div class="blog-post">
-            <img src="Gambar WhatsApp 2024-11-28 pukul 12.47.42_d3c0c29c.jpg" width="350px" height="350px" alt="Gambar Postingan" class="zoomable">
-            <h2>"Lokasi Mudah Di Akses Karena Berada Di Jalan Lintas"</h2>
-            <p>Warung Buka Dari Jam 06:30 s.d 22:30 pm</p>
-        </div>
-        <!-- Postingan 2 -->
-        <div class="blog-post">
-            <img src="Gambar WhatsApp 2024-11-28 pukul 12.48.45_7c9ca55b.jpg" width="350px" height="350px" alt="Gambar Postingan" class="zoomable">
-            <h2>"Sedia Barang-Barang Yang Di Butuhkan"</h2>
-            <p>Cari Barang Yang Dibutuhkan?Beli Disini Ajaaa,Dijamin Barang Yang Dibutuhkan Pasti Ada</p>
-        </div>
+      <div class="blog-post">
+        <img src="Gambar WhatsApp 2024-11-28 pukul 12.47.42_d3c0c29c.jpg" alt="Location easily accessible" class="zoomable">
+        <h2>"Lokasi Mudah Diakses"</h2>
+        <p>Warung buka dari jam 06:30 hingga 22:30</p>
+      </div>
+      <div class="blog-post">
+        <img src="Gambar WhatsApp 2024-11-28 pukul 12.48.45_7c9ca55b.jpg" alt="Essential items available" class="zoomable">
+        <h2>"Sedia Barang-Barang Yang Dibutuhkan"</h2>
+        <p>Cari barang yang dibutuhkan? Beli di sini aja! Dijamin lengkap.</p>
+      </div>
     </div>
-</main>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <p>&copy; 2024 Warung Ridho. All rights reserved.</p>
+  </footer>
+
+  <!-- JavaScript -->
+  <script>
+    // Modal for Zoomable Images
+    const zoomableImages = document.querySelectorAll('.zoomable');
+    const modal = document.createElement('div');
+    const modalImg = document.createElement('img');
+
+    modal.className = 'modal';
+    modal.appendChild(modalImg);
+    document.body.appendChild(modal);
+
+    zoomableImages.forEach(img => {
+      img.addEventListener('click', () => {
+        modalImg.src = img.src;
+        modal.style.display = 'flex';
+      });
+    });
+
+    modal.addEventListener('click', () => {
+      modal.style.display = 'none';
+    });
+  </script>
 </body>
 </html>
