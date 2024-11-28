@@ -13,17 +13,19 @@
   <header>
     <div class="navbar">
       <div class="logo">Warung Ridho</div>
-      <div class="list">
-        <i class="ph ph-list"></i> <!-- Icon untuk tombol "list" -->
-      </div>
-      <ul>
-        <li><a href="#">Home</a></li>
-        <li><a href="#">Service</a></li>
-        <li><a href="https://wa.me/+6285261505637" target="_blank">Contact</a></li>
-        <li><a href="https://www.google.com/maps/place/Ritonga+Jaya/" target="_blank" class="donate-btn">Maps</a></li>
-      </ul>
+      <nav>
+        <div class="list">
+          <i class="ph ph-list"></i>
+        </div>
+        <ul>
+          <li><a href="#">Home</a></li>
+          <li><a href="#">Service</a></li>
+          <li><a href="https://wa.me/+6285261505637" target="_blank">Contact</a></li>
+          <li><a href="https://www.google.com/maps/place/Ritonga+Jaya/" target="_blank" class="donate-btn">Maps</a></li>
+        </ul>
+      </nav>
     </div>
-  </header>  
+  </header>
 
   <!-- Hero Section -->
   <section class="hero">
@@ -53,18 +55,6 @@
     <p>&copy; 2024 Warung Ridho. All rights reserved.</p>
   </footer>
 
-  <script>
-    // Ambil elemen tombol dan daftar menu
-    const listButton = document.querySelector('.list');
-    const navMenu = document.querySelector('.navbar ul');
-  
-    // Tambahkan event listener untuk klik tombol
-    listButton.addEventListener('click', () => {
-      navMenu.classList.toggle('active'); // Toggle kelas "active" untuk menampilkan/menyembunyikan menu
-    });
-  </script>
-  
-
   <!-- JavaScript -->
   <script>
     // Modal for Zoomable Images
@@ -88,4 +78,4 @@
     });
   </script>
 </body>
-</html>
+</html>     
