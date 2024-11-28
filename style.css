@@ -41,6 +41,11 @@ body {
   font-size: 1rem;
 }
 
+.list {
+  font-size: 28px;
+  display: none;
+}
+
 /* Hero Section */
 .hero {
   height: 100vh;
@@ -130,8 +135,13 @@ body {
 /* Responsive Design */
 @media (max-width: 768px) {
   .navbar ul {
-    flex-direction: column;
-    text-align: center;
+    display: none;
+  }
+  
+
+  .list {
+    display: block;
+    align-items: center;
   }
 
   .blog-container {
