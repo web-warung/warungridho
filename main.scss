@@ -27,7 +27,11 @@
         list-style: none;
         justify-content: space-between;
         display: flex;
-      }
+    }
+        .hidden {
+            display: none;
+        }
+      
 
       li {
         margin: 0 1rem;
@@ -133,6 +137,13 @@
 
   /* Responsive Design */
 @media (max-width: 768px) {
+    .navbar {
+        flex-wrap: wrap;
+        position: fixed;
+        width: 100%;
+        top: 0;
+    }
+
     .navbar ul {
       flex-direction: column;
       gap: 15px;
@@ -140,7 +151,11 @@
       padding: 1vh;
       font-size: 28px;
     }
-  
+
+    .navbar ul li:last-of-type{
+        padding-bottom: 8px;
+    }
+
     .list {
       display: flex;
       align-items: flex-end;
