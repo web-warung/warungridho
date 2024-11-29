@@ -25,6 +25,7 @@
 
       ul {
         list-style: none;
+        justify-content: space-between;
         display: flex;
       }
 
@@ -133,12 +134,18 @@
   /* Responsive Design */
 @media (max-width: 768px) {
     .navbar ul {
-      display: none;
+      flex-direction: column;
+      gap: 15px;
+      margin: 1vh;
+      padding: 1vh;
+      font-size: 28px;
     }
   
     .list {
       display: flex;
-      align-items: center;
+      align-items: flex-end;
+      flex-direction: column-reverse;
+      margin: 2vh;
     }
   
     .blog-container {
