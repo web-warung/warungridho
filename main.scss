@@ -133,13 +133,12 @@
   /* Responsive Design */
 @media (max-width: 768px) {
     .navbar ul {
-      flex-direction: c
+      display: none;
     }
   
     .list {
       display: flex;
       align-items: center;
-      position: right;
     }
   
     .blog-container {
