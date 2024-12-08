@@ -113,6 +113,12 @@
   .icon {
     font-size: 1.9rem;
     margin: 20px;
+    filter: grayscale(100%);
+    transition: 0.3s;
+  }
+
+  .icon:hover{
+   filter: none;
   }
 
   /* Zoomable Image */
