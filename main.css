@@ -110,12 +110,15 @@ body {
 .icon {
   font-size: 1.9rem;
   margin: 20px;
-  filter: grayscale(100%);
-  transition: 0.3s;
+}
+.icon a {
+  color: #fff;
+  text-decoration: none;
 }
 
 .icon:hover {
   filter: none;
+  text-decoration: none;
 }
 
 /* Zoomable Image */
