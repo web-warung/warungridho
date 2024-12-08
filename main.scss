@@ -16,7 +16,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
-    background-color: #333;
+    background-color: rgba(255, 99, 71, 0.2);
     color: white;
 }
 
@@ -144,7 +144,7 @@
     .navbar-menu {
         display: none;
         flex-direction: column;
-        background-color: #333;
+        background-color:  rgb(255 99 71 / 20%);
         position: absolute;
         top: 60px;
         right: 0;
