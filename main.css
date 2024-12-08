@@ -16,29 +16,40 @@ body {
   justify-content: space-between;
   align-items: center;
   padding: 1rem 2rem;
-  background-color: rgba(160, 142, 129, 0.445);
+  background-color: #333;
+  color: white;
 }
-.navbar .logo {
-  font-size: 1.7rem;
-  font-weight: bold;
+
+.navbar-brand a {
+  text-decoration: none;
+  color: white;
+  font-size: 1.5rem;
 }
-.navbar ul {
+
+.navbar-menu {
   list-style: none;
-  justify-content: space-between;
   display: flex;
+  margin: 0;
+  padding: 0;
 }
-.navbar li {
+
+.navbar-menu li {
   margin: 0 1rem;
 }
-.navbar a {
+
+.navbar-menu a {
   text-decoration: none;
   color: white;
   font-size: 1rem;
 }
 
-.list {
-  font-size: 28px;
+.navbar-toggler {
   display: none;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  color: white;
+  cursor: pointer;
 }
 
 /* Hero Section */
@@ -122,30 +133,23 @@ body {
   border-radius: 10px;
 }
 
-/* Responsive Design */
+/* Responsiveness */
 @media (max-width: 768px) {
-  .navbar {
-    flex-wrap: wrap;
-    position: fixed;
-    width: 100%;
-    top: 0;
-  }
-  .navbar ul {
-    flex-direction: column;
-    gap: 15px;
-    margin: 1vh;
-    padding: 1vh;
-    font-size: 28px;
+  .navbar-menu {
     display: none;
+    flex-direction: column;
+    background-color: #333;
+    position: absolute;
+    top: 60px;
+    right: 0;
+    width: 100%;
+    text-align: center;
   }
-  .navbar ul li:last-of-type {
-    padding-bottom: 8px;
-  }
-  .list {
+  .navbar-menu.show {
     display: flex;
-    align-items: flex-end;
-    flex-direction: column-reverse;
-    margin: 2vh;
+  }
+  .navbar-toggler {
+    display: block;
   }
   .blog-container {
     grid-template-columns: 1fr;
