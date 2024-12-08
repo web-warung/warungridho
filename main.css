@@ -107,6 +107,11 @@ body {
   font-family: "Courier New", Courier, monospace;
 }
 
+.icon {
+  font-size: 1.5rem;
+  margin: 20px;
+}
+
 /* Zoomable Image */
 .zoomable {
   cursor: pointer;
