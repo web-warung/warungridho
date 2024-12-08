@@ -1,6 +1,4 @@
-const menuIcon = document.getElementById("list");
-const menulist = document.getElementById("menu-list");
-
-menuIcon.addEventListener("click", () => {
-    menulist.classList.toggle("hidden");
+document.getElementById('navbar-toggler').addEventListener('click', function () {
+    const menu = document.getElementById('navbar-menu');
+    menu.classList.toggle('show');
 });

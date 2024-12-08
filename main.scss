@@ -11,39 +11,7 @@
     color: white;
   }
   
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: rgba(160, 142, 129, 0.445);
-
-    .logo {
-        font-size: 1.7rem;
-        font-weight: bold;
-      }
-
-      ul {
-        list-style: none;
-        justify-content: space-between;
-        display: flex;
-    } 
-
-      li {
-        margin: 0 1rem;
-      }
-      
-      a {
-        text-decoration: none;
-        color: white;
-        font-size: 1rem;
-      }
-}
-
-.list {
-    font-size: 28px;
-    display: none;
-  }
+  
 
 /* Hero Section */
 .hero {
@@ -131,41 +99,73 @@
       }
   }
 
-  /* Responsive Design */
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: #333;
+    color: white;
+}
+
+.navbar-brand a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.5rem;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar-menu li {
+    margin: 0 1rem;
+}
+
+.navbar-menu a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+
+.navbar-toggler {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
+
+/* Responsiveness */
 @media (max-width: 768px) {
-    .navbar {
-        flex-wrap: wrap;
-        position: fixed;
+    .navbar-menu {
+        display: none;
+        flex-direction: column;
+        background-color: #333;
+        position: absolute;
+        top: 60px;
+        right: 0;
         width: 100%;
-        top: 0;
+        text-align: center;
     }
 
-    .navbar ul {
-      flex-direction: column;
-      gap: 15px;
-      margin: 1vh;
-      padding: 1vh;
-      font-size: 28px;
-      display: none;
+    .navbar-menu.show {
+        display: flex;
     }
 
-    .navbar ul li:last-of-type{
-        padding-bottom: 8px;
-    }
-
-    .list {
-      display: flex;
-      align-items: flex-end;
-      flex-direction: column-reverse;
-      margin: 2vh;
+    .navbar-toggler {
+        display: block;
     }
   
     .blog-container {
       grid-template-columns: 1fr;
     }
-  
+
     .hero h1 {
       font-size: 2rem;
     }
   }
-  
