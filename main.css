@@ -68,7 +68,7 @@ body {
 }
 
 .btn-pesan {
-  background-color: rgb(175, 117, 89);
+  background-color: rgba(255, 99, 71, 0.2);
   color: #FFFFFF;
   padding: 10px 20px;
   text-decoration: none;
