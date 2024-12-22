@@ -1,7 +1,8 @@
+@use '/sass/btn.scss';
   /* Footer */
   .footer {
     background-color: rgba(128,128,128,1);
-    color: white;
+    color: m.$clr;
     text-align: center;
     padding: 15px;
     font-family: 'Courier New', Courier, monospace;

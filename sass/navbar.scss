@@ -1,15 +1,16 @@
+@use '/sass/btn.scss';
 .navbar {
     display: flex;
     justify-content: space-between;
     align-items: center;
     padding: 1rem 2rem;
     background-color: rgba(128,128,128,1);
-    color: white;
+    color: m.$clr;
 }
 
 .navbar-brand a {
     text-decoration: none;
-    color: white;
+    color: m.$clr;
     font-size: 30px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -26,7 +27,7 @@
 
   a {
     text-decoration: none;
-    color: white;
+    color: m.$clr;
     font-size: 1rem;
 }
 }
@@ -38,6 +39,6 @@
     background: none;
     border: none;
     font-size: 1.5rem;
-    color: white;
+    color: m.$clr;
     cursor: pointer;
 }
