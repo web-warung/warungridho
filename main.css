@@ -18,14 +18,12 @@ body {
   background-color: rgb(128, 128, 128);
   color: white;
 }
-
 .navbar-brand a {
   text-decoration: none;
   color: white;
   font-size: 30px;
   font-family: "Times New Roman", Times, serif;
 }
-
 .navbar-menu {
   list-style: none;
   display: flex;
@@ -40,7 +38,6 @@ body {
   color: white;
   font-size: 1rem;
 }
-
 .navbar-toggler {
   display: none;
   background: none;
