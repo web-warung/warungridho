@@ -78,12 +78,12 @@
     display: flex;
     margin-left: 25%;
     margin-right: 25%;
-}
 
-.btn-pesan:hover {
-    background-color: #FF6347; /* Warna saat hover */
+    &:hover {
+      background-color: #FF6347; /* Warna saat hover */
+  }
+  
 }
-
 
   .bcg{
     background-image: url(grosir.jpg);
@@ -133,21 +133,21 @@
       color: #fff;
       text-decoration: none;
     }
+
+    &:hover{
+      filter: none;
+      text-decoration: none;
+    }
   }
   
-  .icon:hover{
-    filter: none;
-    text-decoration: none;
-  }
-
   /* Zoomable Image */
 .zoomable {
     cursor: pointer;
     transition: transform 0.3s ease;
-  }
 
-  .zoomable:hover {
-    transform: scale(1.05);
+    &:hover {
+      transform: scale(1.05);
+    }
   }
 
   .modal {
