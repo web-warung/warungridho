@@ -1,5 +1,6 @@
 @use '/sass/navbar.scss';
 @use '/sass/foot.scss';
+@use '/sass/btn.scss';
 * {
     margin: 0;
     padding: 0;
@@ -33,24 +34,7 @@
     display: block;
   }
 
-  .btn-pesan {
-    background-color: rgba(128,128,128,1); 
-    color: #FFFFFF; 
-    padding: 10px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    border-radius: 8px;
-    justify-content: center;
-    display: flex;
-    margin-left: 25%;
-    margin-right: 25%;
-}
-
-.btn-pesan:hover {
-    background-color: #FF6347; /* Warna saat hover */
-}
-
+ 
   /* Blog Section */
 .blog-container {
     display: grid;
