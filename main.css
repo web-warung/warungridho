@@ -8,7 +8,6 @@
 body {
   font-family: "Arial", sans-serif;
   background-color: #000; /* Dark theme */
-  color: white;
 }
 
 .navbar {
@@ -36,7 +35,6 @@ body {
 .navbar-menu li {
   margin: 0 1rem;
 }
-
 .navbar-menu a {
   text-decoration: none;
   color: white;
@@ -66,11 +64,6 @@ body {
   text-shadow: 2px 2px 5px black;
 }
 
-.bcg {
-  background-image: url(grosir.jpg);
-  display: block;
-}
-
 .btn-pesan {
   background-color: rgb(128, 128, 128);
   color: #FFFFFF;
@@ -87,6 +80,11 @@ body {
 
 .btn-pesan:hover {
   background-color: #FF6347; /* Warna saat hover */
+}
+
+.bcg {
+  background-image: url(grosir.jpg);
+  display: block;
 }
 
 /* Blog Section */
@@ -118,15 +116,6 @@ body {
 .blog-post p {
   font-size: 1rem;
   margin-bottom: 10px;
-}
-
-/* Footer */
-.footer {
-  background-color: rgb(128, 128, 128);
-  color: white;
-  text-align: center;
-  padding: 15px;
-  font-family: "Courier New", Courier, monospace;
 }
 
 .icon {
@@ -169,6 +158,15 @@ body {
   max-width: 90%;
   max-height: 90%;
   border-radius: 10px;
+}
+
+/* Footer */
+.footer {
+  background-color: rgb(128, 128, 128);
+  color: white;
+  text-align: center;
+  padding: 15px;
+  font-family: "Courier New", Courier, monospace;
 }
 
 /* Responsiveness */
