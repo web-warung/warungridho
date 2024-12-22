@@ -72,30 +72,6 @@
   margin-bottom: 10px;
 }
 
-.btn-pesan {
-  background-color: rgb(128, 128, 128);
-  color: #FFFFFF;
-  padding: 10px 20px;
-  text-decoration: none;
-  font-weight: bold;
-  font-size: 16px;
-  border-radius: 8px;
-  justify-content: center;
-  display: flex;
-  margin-left: 25%;
-  margin-right: 25%;
-}
-.btn-pesan:hover {
-  background-color: #FF6347; /* Warna saat hover */
-}
-
-/* Body and Typography */
-body {
-  font-family: "Arial", sans-serif;
-  background-color: #000; /* Dark theme */
-  color: white;
-}
-
 /* Hero Section */
 .hero {
   height: 100vh;
@@ -135,6 +111,30 @@ body {
 }
 .zoomable:hover {
   transform: scale(1.05);
+}
+
+.btn-pesan {
+  background-color: rgb(128, 128, 128);
+  color: #FFFFFF;
+  padding: 10px 20px;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 16px;
+  border-radius: 8px;
+  justify-content: center;
+  display: flex;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+.btn-pesan:hover {
+  background-color: #FF6347; /* Warna saat hover */
+}
+
+/* Body and Typography */
+body {
+  font-family: "Arial", sans-serif;
+  background-color: #000; /* Dark theme */
+  color: white;
 }
 
 .modal {
