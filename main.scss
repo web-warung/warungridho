@@ -3,18 +3,54 @@
     padding: 0;
     box-sizing: border-box;
   }
-
-@use './sass/navbar.scss';
-@use './sass/foot.scss';
-@use './sass/btn.scss';
-
+  
   /* Body and Typography */
   body {
     font-family: 'Arial', sans-serif;
     background-color: #000; /* Dark theme */
-    color: orange;
-    bottom: 10px;
   }
+
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem 2rem;
+    background-color: rgba(128,128,128,1);
+    color: white;
+}
+
+.navbar-brand a {
+    text-decoration: none;
+    color: white;
+    font-size: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.navbar-menu {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+
+    li {
+      margin: 0 1rem;
+  }
+
+  a {
+    text-decoration: none;
+    color: white;
+    font-size: 1rem;
+}
+}
+
+.navbar-toggler {
+    display: none;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+    color: white;
+    cursor: pointer;
+}
   
 /* Hero Section */
 .hero {
@@ -30,6 +66,25 @@
         text-shadow: 2px 2px 5px black;
       }
   }
+
+  .btn-pesan {
+    background-color: rgba(128,128,128,1); 
+    color: #FFFFFF; 
+    padding: 10px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 16px;
+    border-radius: 8px;
+    justify-content: center;
+    display: flex;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+.btn-pesan:hover {
+    background-color: #FF6347; /* Warna saat hover */
+}
+
 
   .bcg{
     background-image: url(grosir.jpg);
@@ -114,6 +169,15 @@
         border-radius: 10px;
       }
   }
+
+    /* Footer */
+    .footer {
+      background-color: rgba(128,128,128,1);
+      color: white;
+      text-align: center;
+      padding: 15px;
+      font-family: 'Courier New', Courier, monospace;
+    }
 
 /* Responsiveness */
 @media (max-width: 768px) {
