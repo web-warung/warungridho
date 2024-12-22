@@ -4,53 +4,16 @@
     box-sizing: border-box;
   }
   
+  @import 'navbar';
+  @import 'blog';
+  @import 'btn';
+
   /* Body and Typography */
   body {
     font-family: 'Arial', sans-serif;
     background-color: #000; /* Dark theme */
     color: white;
   }
-
-  .navbar {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 1rem 2rem;
-    background-color: rgba(128,128,128,1);
-    color: white;
-
-    &-brand a {
-      text-decoration: none;
-      color: white;
-      font-size: 30px;
-      font-family: 'Times New Roman', Times, serif;
-  }
-
-  &-menu {
-    list-style: none;
-    display: flex;
-    margin: 0;
-    padding: 0;
-
-    li {
-      margin: 0 1rem;
-  }
-
-  a {
-    text-decoration: none;
-    color: white;
-    font-size: 1rem;
-}
-}
-&-toggler {
-  display: none;
-  background: none;
-  border: none;
-  font-size: 1.5rem;
-  color: white;
-  cursor: pointer;
-}
-}
 
 /* Hero Section */
 .hero {
@@ -67,63 +30,9 @@
       }
   }
 
-  .btn-pesan {
-    background-color: rgba(128,128,128,1); 
-    color: #FFFFFF; 
-    padding: 10px 20px;
-    text-decoration: none;
-    font-weight: bold;
-    font-size: 16px;
-    border-radius: 8px;
-    justify-content: center;
-    display: flex;
-    margin-left: 25%;
-    margin-right: 25%;
-
-    &:hover {
-      background-color: #FF6347; /* Warna saat hover */
-  }
-  
-}
-
   .bcg{
     background-image: url(grosir.jpg);
     display: block;
-  }
-
- 
-  /* Blog Section */
-.blog-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 20px;
-    padding: 20px;
-  }
-
-  .blog-post {
-    background: #000;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-    padding: 15px;
-    text-align: center;
-    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
-
-    img {
-        width: 100%;
-        height: auto;
-        border-radius: 5px;
-        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
-      }
-
-      h2 {
-        font-size: 1.5rem;
-        margin: 10px 0;
-      }
-
-      p {
-        font-size: 1rem;
-        margin-bottom: 10px;
-      }
   }
 
   .icon {
