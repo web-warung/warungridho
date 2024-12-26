@@ -216,6 +216,20 @@ header.sticky {
   color: #EE1C47;
 }
 
+.maps {
+  border: 10px solid #89acb4;
+  border-radius: 10px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.3);
+  transition: all 0.4s;
+  transform: scale(0.9);
+}
+.maps iframe {
+  border-radius: 10px;
+}
+.maps iframe:hover {
+  transform: scale(0.9);
+}
+
 .client-reviews {
   background-color: #F3F4F6;
 }
