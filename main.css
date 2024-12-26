@@ -234,5 +234,8 @@ header.sticky {
   width: 100px;
   height: auto;
   border-radius: 50px;
-  margin: 10px;
+  margin: 10px 0;
+}
+.reviews p {
+  color: #707070;
 }
