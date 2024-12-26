@@ -230,3 +230,9 @@ header.sticky {
   text-align: center;
   font-weight: 700;
 }
+.reviews img {
+  width: 100px;
+  height: auto;
+  border-radius: 50px;
+  margin: 10px;
+}
