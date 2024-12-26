@@ -1,0 +1,8 @@
+.logo3{
+    display: flex; /* Gunakan flexbox untuk pengaturan */
+  justify-content: center; /* Untuk horizontal alignment */
+  align-items: center; /* Untuk vertical alignment */
+  position: absolute; /* Supaya bisa diposisikan */
+  width: 100%; /* Membuat kontainer selebar halaman */
+  background-color: #fff;
+}

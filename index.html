@@ -3,99 +3,103 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta name="description" content="Welcome to Warung Ridho, a convenient shop with all the essentials you need.">
-  <title>Warung Ridho</title>
+  <title>Toko Ridho</title>
   <link rel="stylesheet" href="main.css">
-  <script src="https://unpkg.com/@phosphor-icons/web"></script>
-  <meta name="google-site-verification" content="vMd61DxJ4iFCJ_mu-xENUiO06DsgEY6C1Cmr3iJBYyg" />
-  <!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-E92663KD47"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
 
-  gtag('config', 'G-E92663KD47');
-</script>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Jost:wght@100;200;300;400;500;600;700&display=swap" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+<link rel="stylesheet"
+  href="https://unpkg.com/boxicons@latest/css/boxicons.min.css">
+
+  <script src="https://cdn.lordicon.com/lordicon.js"></script>
+  <script type="module" src="./node_modules/lottie-web/build/player/lottie_svg.min.js"></script>
+  <script type="module" src="./example.js"></script>
+  <style>
+    lord-icon{
+      width: 100px;
+      height: 100px;
+    }
+  </style>
 </head>
 <body>
-  <!-- Navbar -->
-  <nav class="navbar">
-    <div class="navbar-brand">
-        <a href="#">Warung Ridho</a>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="">
+      <h1>Rid<b>ho</b></h1>
     </div>
-    <button class="navbar-toggler" id="navbar-toggler">
-        ☰
-    </button>
-    <ul class="navbar-menu" id="navbar-menu">
-      <li><a href="#">Home</a></li>
-      <li><a href="#">Service</a></li>
-      <li><a href="https://wa.me/+6285261505637" target="_blank">Contact</a></li>
-      <li><a href="https://www.google.co.id/maps/place/TOKO+RIDHO/@1.6106365,99.2605663,17.75z/data=!4m15!1m8!3m7!1s0x302c266244b12709:0xb9d36abb83b41f8e!2sSilangge,+Kec.+Sipirok,+Kabupaten+Tapanuli+Selatan,+Sumatera+Utara!3b1!8m2!3d1.6182649!4d99.2646998!16s%2Fg%2F1hm4t1gxq!3m5!1s0x302c27002f5d3d0b:0xda7016fb636fe179!8m2!3d1.6102905!4d99.2618161!16s%2Fg%2F11lw7ynh9s?entry=ttu&g_ep=EgoyMDI0MTIwNC4wIKXMDSoASAFQAw%3D%3D" target="_blank" class="donate-btn">Maps</a></li>
-    </ul>
-</nav>
 
-  <!-- Hero Section -->
-  <section class="hero">
-    <div class="hero-content">
-      <h1>Welcome To Web Toko Ridho</h1>
+    <ul class="navmenu">
+      <li><a href="#">Home</a></li>
+      <li><a href="#">About</a></li>
+      <li><a href="#">Contact</a></li>
+      <li><a href="#">Maps</a></li>
+    </ul>
+
+    <div class="nav-icon">
+      <a href="#"><i class='bx bx-search'></i></a>
+      <a href="#"><i class='bx bx-user'></i></a>
+      <a href="#"><i class='bx bx-cart'></i></a>
+
+      <div class="bx bx-menu" id="menu-icon"></div>
+    </div>
+  </header>
+
+  <section class="main-home">
+    <div class="main-text">
+      <h5>Toko Ridho</h5>
+      <h1>Mau Cari Barang Murah? <br>Beli Disini Aja</h1>
+      <p>Dijamin Barang Yang Dicari Ada</p>
+
+      <a href="#" class="main-btn">Explore Items <i class='bx bx-right-arrow-alt'></i></a>
+    </div>
+
+    <div class="down-arrow">
+      <a href="#logo2" class="down"><i class='bx bx-down-arrow-alt'></i></a>
     </div>
   </section>
 
-<div class="bcg">
-  <a href="https://web-warung.github.io/persediaanbarang/" class="btn-pesan">Pesan disini!</a>
+<div class="logo3">
+  <div class="icon">
+    <lord-icon src="https://cdn.lordicon.com/kbtmbyzy.json"
+        trigger="loop"
+      ></lord-icon>
+      <lord-icon src="https://cdn.lordicon.com/lbjtvqiv.json"
+      trigger="loop"
+      ></lord-icon>
+    <lord-icon src="https://cdn.lordicon.com/vaeagfzc.json"
+    trigger="loop"
+      ></lord-icon>
+      <lord-icon loading="interaction" trigger="loop" target="div" class="editor-preview border" sequence="delay:500,play,delay:1000,play:reverse">
+        <img alt="Home, Animated Icon, Outline" loading="lazy" src="https://media.lordicon.com/icons/wired/outline/63-home.gif">
+    </lord-icon>
+  </div>
+</div>
+</div> 
 
-  <!-- Blog Section -->
-  <main>
-    <div class="blog-container">
-      <div class="blog-post">
-        <img src="Gambar WhatsApp 2024-11-28 pukul 12.47.42_d3c0c29c.jpg" alt="Location easily accessible" class="zoomable">
-        <h2>"Lokasi Mudah Diakses"</h2>
-        <p>Warung buka dari jam 06:30 s.d 22:30 pm</p>
-      </div>
-      <div class="blog-post">
-        <img src="Gambar WhatsApp 2024-11-28 pukul 12.48.45_7c9ca55b.jpg" alt="Essential items available" class="zoomable">
-        <h2>"Sedia Barang-Barang Yang Dibutuhkan"</h2>
-        <p>Cari barang yang dibutuhkan? Beli di sini aja! Dijamin lengkap.</p>
-      </div>
-    </div>
-  </main>
+<div class="center-text">
+  <h2>The <span>Location</span></h2>
 </div>
 
-  <!-- Footer -->
-  <footer class="footer">
-    <p>&copy; 2024 Warung Ridho.All rights reserved.
-      <br>Created By Muhammad Baihaqi Siregar.
-    </p>
-    <div class="icon">
-      <a href="https://www.facebook.com/search/top?q=juwita%20shb"><i class="ph ph-facebook-logo"></i></a>
-      <a href="https://www.instagram.com/juwita.shb.73/"><i class="ph ph-instagram-logo"></i></a>
-      <a href="https://wa.me/+6285261505637"><i class="ph ph-whatsapp-logo"></i></a>
+<main>
+  <div class="blog-container">
+    <div class="blog-post">
+      <h2>" <span>The</span> Outside"</h2>
+      <img src="1.jpg" alt="Location easily accessible" class="zoomable">
+    </div>
+    <div class="blog-post">
+      <h2>"<span>The </span> Inline"</h2>
+      <img src="2.jpg" alt="Essential items available" class="zoomable">
+    </div>
   </div>
-  </footer>
+</main>
+</div>
 
-  <!-- JavaScript -->
-  <script>
-    // Modal for Zoomable Images
-    const zoomableImages = document.querySelectorAll('.zoomable');
-    const modal = document.createElement('div');
-    const modalImg = document.createElement('img');
+<section class="client-reviews"></section>
 
-    modal.className = 'modal';
-    modal.appendChild(modalImg);
-    document.body.appendChild(modal);
-
-    zoomableImages.forEach(img => {
-      img.addEventListener('click', () => {
-        modalImg.src = img.src;
-        modal.style.display = 'flex';
-      });
-    });
-
-    modal.addEventListener('click', () => {
-      modal.style.display = 'none';
-    });
-  </script>
-  <script src="script.js"></script>
+<script src="java.js"></script>
 </body>
-</html>     
+</html>
