@@ -26,6 +26,15 @@ header {
   background-color: #4C585B;
 }
 
+.logo {
+  display: flex;
+}
+.logo img {
+  width: 70%;
+  height: auto;
+  margin-right: 40px;
+}
+
 .navmenu {
   display: flex;
 }
@@ -213,7 +222,7 @@ header.sticky {
   border-radius: 10px;
 }
 .maps-link iframe:hover {
-  transform: scale(0.9);
+  transform: scale(1.2);
 }
 
 .client-reviews {
