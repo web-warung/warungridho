@@ -26,24 +26,6 @@ header {
   background-color: #4C585B;
 }
 
-.logo {
-  display: flex;
-}
-.logo img {
-  width: 85px;
-  height: 85px;
-  margin-right: 40px;
-}
-.logo h1 {
-  align-items: center;
-  justify-items: center;
-  display: flex;
-  color: #fff;
-}
-.logo h1 b {
-  color: #EE1C47;
-}
-
 .navmenu {
   display: flex;
 }
@@ -131,6 +113,7 @@ section {
 .main-btn:hover {
   color: #fff;
   background-color: #000;
+  filter: drop-shadow(0 0 10px #EE1C47);
 }
 .main-btn i {
   vertical-align: middle;
