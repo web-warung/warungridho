@@ -267,3 +267,13 @@ header.sticky {
 .contact h4 {
   color: #EE1C47;
 }
+.contact-info {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, auto));
+  gap: 3rem;
+}
+
+.first-info img {
+  width: 140px;
+  height: auto;
+}
