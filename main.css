@@ -259,3 +259,11 @@ header.sticky {
   text-transform: capitalize;
   margin-bottom: 2px;
 }
+
+.contact {
+  background-color: #4C585B;
+  color: #fff;
+}
+.contact h4 {
+  color: #EE1C47;
+}
