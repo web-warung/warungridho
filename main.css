@@ -212,10 +212,13 @@ header.sticky {
   margin: 10px 0;
   color: #000;
 }
-.blog-post h2 span {
-  color: #EE1C47;
-}
 
+.maps {
+  color: #111;
+  text-align: center;
+  font-size: 20px;
+  text-transform: capitalize;
+}
 .maps-link {
   border: 10px solid #89acb4;
   border-radius: 10px;
